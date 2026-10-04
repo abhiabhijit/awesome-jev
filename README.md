@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 10 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 35 entries
 - [Calibration & Research](categories/calibration-research.md) — 50 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 100 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 101 entries
 - [Game & Simulation](categories/game-simulation.md) — 25 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 9 entries
 - [Finance & Trading](categories/finance-trading.md) — 8 entries
@@ -499,6 +499,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) ![stars](https://img.shields.io/github/stars/yusukebe/hono-jev-router?style=flat-square&label=%E2%98%85) - Web frameworks: Hono middleware that routes HTTP requests by meaning rather than by method and path, deciding with Jev.
 - [rotom](https://github.com/RyanKung/rotom) ![stars](https://img.shields.io/github/stars/RyanKung/rotom?style=flat-square&label=%E2%98%85) - Local gateways: OpenAI- and Anthropic-compatible API gateway that carries Jev through its model catalog and evaluation path.
 - [Jev AI](https://jev-ai.pro) - Developer tooling: public Jev playground and API that puts typed `Choice`, `Score` and Yes/No questions to the model about pasted text - ticket triage, moderation, review scoring - and returns a parsed answer with a confidence value in about 0.5 s per decision.
+- [jev4pg](https://github.com/Sheltercosmo/jev4pg) ![stars](https://img.shields.io/github/stars/Sheltercosmo/jev4pg?style=flat-square&label=%E2%98%85) - PostgreSQL: evaluates row-level predicates with Jev Noul questions, retains the returned probabilities for explicit decision thresholds, and leaves joins and aggregation to SQL.
 - [jevql](https://github.com/kylemclaren/jevql) ![stars](https://img.shields.io/github/stars/kylemclaren/jevql?style=flat-square&label=%E2%98%85) - Data tooling: psql-shaped CLI and Go/TypeScript/Python SDKs that run plain SQL on a vanilla Postgres (no extension) and then ask Jev Noul, Choice, or Score questions about each surviving row so the client can apply `jev()` filters, `jev_prob` sorts, and `jev_choice` groups.
 - [sqlite-jev](https://github.com/mgaitan/sqlite-jev) ![stars](https://img.shields.io/github/stars/mgaitan/sqlite-jev?style=flat-square&label=%E2%98%85) - SQLite ecosystem: loadable C extension and Python package that expose Jev Noul, Choice, and Score judgments as SQL functions and batched virtual-table queries with confidence results.
 - [duckdb-jev](https://github.com/prasanthj/duckdb-jev) ![stars](https://img.shields.io/github/stars/prasanthj/duckdb-jev?style=flat-square&label=%E2%98%85) - DuckDB ecosystem: native extension that applies Jev Noul, Choice, Score, and multi-question decisions directly to structured SQL rows, measuring 1,943 rows/s for 1,000 Choice classifications with confidence and bounded concurrency.
