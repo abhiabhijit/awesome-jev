@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 60 entries
+- [Classification & Routing](categories/classification-routing.md) — 61 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 10 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 47 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 40 entries
